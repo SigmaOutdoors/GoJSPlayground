@@ -1,0 +1,50 @@
+<div style="width: 100%; display: flex; justify-content: space-between">
+    <div id="myPaletteDiv" style="width: 105px; margin-right: 2px; background-color: whitesmoke; border: solid 1px black">
+        <gojs-palette
+        [initPalette]='initPalette'
+        [divClassName]='palletteDivClassName'
+        [nodeDataArray]='state.paletteNodeData'
+        ></gojs-palette>
+    
+    </div>
+    <div id="myDiagramDiv" style="flex-grow: 1; height: 620px; border: solid 1px black">
+        <gojs-diagram #myDiagram [initDiagram]='initDiagram' [divClassName]='diagramDivClassName'
+        [nodeDataArray]='state.diagramNodeData'
+        [linkDataArray]='state.diagramLinkData'
+        [modelData]='state.diagramModelData'
+        
+        
+        >
+        </gojs-diagram>
+    </div>
+  </div>
+  <!-- 
+
+<div>
+<h1>start</h1>
+
+<h2>end</h2>
+</div>
+
+
+
+<div style="width: 100%; display: flex; justify-content: space-between">
+    <div id="myPaletteDiv" style="width: 105px; margin-right: 2px; background-color: whitesmoke; border: solid 1px black"></div>
+    <div id="myDiagramDiv" style="flex-grow: 1; height: 620px; border: solid 1px black"></div>
+  </div>
+
+
+
+<gojs-diagram #myDiagram [initDiagram]='initDiagram' [nodeDataArray]='state.diagramNodeData' [linkDataArray]='state.diagramLinkData'
+[divClassName]='diagramDivClassName' [modelData]='state.diagramModelData' [(skipsDiagramUpdate)]='state.skipsDiagramUpdate'
+(modelChange)='diagramModelChange($event)'>
+</gojs-diagram>
+
+        <gojs-palette
+        [initPalette]='initPalette'
+        [nodeDataArray]='state.paletteNodeData'
+        [divClassName]='paletteDivClassName'>
+      </gojs-palette>
+
+
+  -->

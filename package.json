@@ -1,0 +1,52 @@
+{
+  "name": "angular-tutorial",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^14.0.4",
+    "@angular/common": "^14.0.4",
+    "@angular/compiler": "^14.0.4",
+    "@angular/core": "^14.0.4",
+    "@angular/forms": "^14.0.4",
+    "@angular/platform-browser": "^14.0.4",
+    "@angular/platform-browser-dynamic": "^14.0.4",
+    "@angular/router": "^14.0.4",
+    "core-js": "^3.14.0",
+    "gojs": "^2.2.13",
+    "gojs-angular": "^2.0.4",
+    "immer": "9.0.3",
+    "postcss": "^8.3.5",
+    "rxjs": "^7.5.5",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^14.0.4",
+    "@angular/cli": "^14.0.4",
+    "@angular/compiler-cli": "^14.0.4",
+    "@angular/language-service": "^14.0.4",
+    "@types/jasmine": "~3.7.7",
+    "@types/jasminewd2": "^2.0.9",
+    "@types/node": "~15.12.2",
+    "codelyzer": "^6.0.2",
+    "jasmine-core": "~3.8.0",
+    "jasmine-spec-reporter": "~6.0.0",
+    "karma": "6.4.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~3.0.2",
+    "karma-jasmine": "~4.0.1",
+    "karma-jasmine-html-reporter": "^1.5.4",
+    "protractor": "~7.0.0",
+    "ts-node": "~9.0.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.6.4"
+  }
+}
